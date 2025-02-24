@@ -9,6 +9,4 @@ This is a simple website for **Muhire Tutoring Services**. It includes:
 ✔ Calculator for quick math solutions  
 ✔ Booking form with payment options  
 
-## How to Run
-1. Download the files (`index.html`, `style.css`, `script.js`)
-2. Open `index.html` in a browser (Chrome, Edge, Firefox)
+
