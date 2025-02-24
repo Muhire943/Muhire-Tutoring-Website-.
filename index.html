@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhire Tutoring Services</title>
+    <meta name="description" content="Expert Math and Accounting Tutoring Services by Muhire Jimmy Joseph. Book personalized sessions today!">
+    <meta name="keywords" content="Math Tutoring, Accounting Lessons, Exam Preparation, Online Learning">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Muhire Tutoring Services</h1>
+        <p>Expert Math & Accounting Tutoring</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#booking">Book a Session</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Muhire Tutoring Services</h2>
+        <p>Providing expert guidance in Math and Accounting for students and professionals.</p>
+    </section>
+    <section id="calculator">
+        <h2>Math & Accounting Calculator</h2>
+        <input type="text" id="calc-input" placeholder="Enter expression (e.g., 5+3*2)">
+        <button onclick="calculateResult()">Calculate</button>
+        <p>Result: <span id="calc-result">---</span></p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Muhire Jimmy Joseph, an experienced tutor specializing in Math and Accounting. With a strong academic background and practical experience, I help students excel.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personalized Math Tutoring - $20/hour</li>
+            <li>Accounting Lessons & Financial Literacy - $25/hour</li>
+            <li>Exam Preparation & Homework Help - $15/hour</li>
+        </ul>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">"Muhire's tutoring helped me pass my exams with flying colors! Highly recommended." - Alex K.</div>
+        <div class="testimonial">"Best tutor for accounting! His explanations are clear and easy to understand." - Sarah M.</div>
+    </section>
+    <section id="blog">
+        <h2>Blog & Resources</h2>
+        <p>Stay tuned for study guides, learning tips, and video lessons.</p>
+    </section>
+    <section id="booking">
+        <h2>Book a Session</h2>
+        <form onsubmit="return confirmBooking()">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="math">Math Tutoring - $20/hour</option>
+                <option value="accounting">Accounting Lessons - $25/hour</option>
+                <option value="exam">Exam Prep - $15/hour</option>
+            </select>
+            
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="momo">Mobile Money - 0785422200</option>
+                <option value="bank">Bank Transfer - Equity Bank: 4005100921086</option>
+            </select>
+            
+            <label for="message">Additional Details:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: muhirejimmyjoseph185@gmail.com</p>
+        <p>Phone: 0785422200</p>
+        <p>Chat with us on <a href="https://wa.me/250785422200">WhatsApp</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Muhire Tutoring Services. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
